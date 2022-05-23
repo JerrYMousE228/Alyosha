@@ -135,8 +135,8 @@ header {
  }
 .miniblock1 {
   float: left;
-  height: 150px;
-  width: 500px;
+  height: 250px;
+  width: 250px;
   background: #040403;
   border: 1px solid #040403;
   border-radius: 25px;
@@ -241,3 +241,4 @@ header {
 .scale2:hover {
 	transform: scale(1.5);
 }
+
