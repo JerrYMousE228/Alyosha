@@ -1,0 +1,382 @@
+@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Condensed&display=swap');
+
+
+body {
+	color: #F7F7FF;
+	font-size: 30px;
+	height: 100%;
+	/*height: 100vh;*/
+	margin: auto;
+	/*font-family: 'Yanone Kaffeesatz', sans-serif;*/
+	font-family: 'Ubuntu Condensed', sans-serif;
+	overflow-x: hidden;
+	overflow-y: hidden;
+
+}
+
+p {
+	text-shadow: 2px 2px 6px #000022;
+}
+
+
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.block {
+  position:relative;
+  width: 100%;
+  height: 106px;
+  /*border: 3px solid #000;*/
+  text-align:center;
+  background: #040403;
+}
+
+.lincol:hover {
+	color: #05A8AA;
+
+}
+
+.wrap {
+  
+  display:inline-block;
+ }
+.miniblock {
+
+  /*background: maroon;*/
+  float: left;
+  height: 100px;
+  width: 250px;
+  /*border: 1px solid #000;*/
+  /*border-radius: 25px;*/
+  margin: 1.5px;
+}
+
+.myphoto {
+  width: 35%;
+  border-radius: 50%;
+}
+
+.myphoto1 {
+  width: 90px;
+  height: 90px;
+  /*background-color: #EEDDFF;*/
+  /*border: 6px solid #7922CC;*/
+  /*border-radius: 25px;*/
+}
+
+.textcont {
+  color: white;
+  line-height: 20px;
+  /*font-style: italic;*/
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+.allcontent {
+	margin-top: -3px;*/
+	width: 100%;
+	height: 520px;
+	background: #D7D6D6;
+}
+
+.content {
+	background: #F6FFF8;
+	min-height: 450px;
+	margin-top: 50px;
+	margin-left: 50px;
+	width: 80%;
+	float: left;
+	margin-top: 10px;
+	border-radius: 55px;
+}
+
+.about {
+	/*float: left;*/
+}
+.aboutme {
+	background: #040403;
+	position: relative;
+	top: 10px;
+	left: 100px;
+	width: 40%;
+	height: 100px;
+	border-radius: 25px;
+	float: left;*/
+	/*margin-left: 100px;*/
+}
+
+.infotext {
+	margin-left: auto;
+    margin-right: auto;
+    width: 6em;
+}
+
+.infotext1 {
+	margin-top: -5px;
+	margin-bottom: auto;
+	margin-left: auto;
+    margin-right: auto;
+    width: 6em;
+}
+
+.space {
+	height: 100px;
+	width: 40px;
+	float: left;
+}
+
+
+.aboutgroup {
+	background: #040403;
+	top: 10px;
+	/*left: 90px;*/
+	position: relative;
+	width: 40%;
+	height: 100px;
+	margin-left: 100px;
+	border-radius: 25px;
+	float: left;
+}
+
+.abouthobby {
+	background: #040403;
+	top: 20px;
+	/*left: 90px;*/
+	position: relative;
+	width: 1000px;
+	height: 100px;
+	margin-left: 100px;
+	border-radius: 25px;
+	float: left;
+}
+
+.hobby1 {
+	background: #040403;
+	top: 30px;
+	/*left: 90px;*/
+	position: relative;
+	width: 300px;
+	height: 100px;
+	margin-left: 100px;
+	border-radius: 25px;
+	float: left;
+}
+
+.hobby2 {
+	background: #040403;
+	top: 30px;
+	/*left: 90px;*/
+	position: relative;
+	width: 300px;
+	height: 100px;
+	margin-left: 50px;
+	border-radius: 25px;
+	float: left;
+}
+
+.hobby3 {
+	background: #040403;
+	top: 30px;
+	/*left: 90px;*/
+	position: relative;
+	width: 300px;
+	height: 100px;
+	margin-left: 50px;
+	border-radius: 25px;
+	float: left;
+}
+
+.aboutinterest {
+	background: #040403;
+	top: 40px;
+	/*left: 90px;*/
+	position: relative;
+	width: 1000px;
+	height: 100px;
+	margin-left: 100px;
+	border-radius: 25px;
+	float: left;
+}
+
+
+.sidebar {
+	background: #F6FFF8;
+	min-height: 450px;
+	width: 15%;
+	float: left;
+	margin-left: 10px;
+	margin-top: 10px;
+	border-radius: 55px;
+}
+
+.space2 {
+	/*margin-top: 20px;*/
+	min-height: 10px;
+}
+
+.space3 {
+	min-height: 5px;
+}
+
+
+
+.footer {
+	background: #063970;
+	height: 200px;
+	margin-top: -32px;
+}
+
+.footercont {
+	background: #05A8AA;
+	height: 80%;
+	width: 100%;
+}
+
+.container-3 a {
+    position: relative;
+    text-decoration: none;
+    color: #F7F7FF;
+    display: inline-block;
+}
+.container-3 a::before,
+.container-3 a::after {
+    content: '';
+    position: absolute;
+    transition: transform .5s ease;
+    left: -4px;
+    top: 0;
+    width: calc(100% + 8px);
+    height: 100%;
+    border-style: solid;
+    border-color: #F7F7FF;
+    box-sizing: border-box;
+}
+.container-3 a::before {
+    border-width: 1px 0 1px 0;
+    transform: scaleX(0);
+}
+.container-3 a::after {
+    border-width: 0 1px 0 1px;
+    transform: scaleY(0);
+}
+.container-3 a:hover::before,
+.container-3 a:hover::after {
+    transform: scale(1, 1);
+}
+
+.container-2 a {
+    text-decoration: none;
+    position: relative;
+    display: inline-block;
+    color: #000;
+    transition: color .3s ease-out;
+}
+.container-2 a::before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    bottom: 0;
+    left: 0;
+    height: 1px;
+    width: 100%;
+    background: #040403;
+    transition: height .3s ease-out;
+}
+  
+.container-2 a:hover {
+    color: #fff;
+}
+.container-2 a:hover::before {
+    height: 100%;
+}
+
+.container-4 a::before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    bottom: 0;
+    left: 0;
+    height: 1px;
+    width: 100%;
+    background: #337AB7;
+    transition: height .3s ease-out;
+}
+  
+.container-4 a:hover {
+    color: black;
+}
+.container-4 a:hover::before {
+    height: 100%;
+}
+
+.add {
+	width: 90%;
+	/*height: 300px;*/
+	border-radius: 25px;
+	box-shadow: 0px 0px 10px #000022
+}
+
+.addphoto1 {
+	margin-top: -25px;
+}
+
+.scale {
+	transition: 1s;
+}
+
+.scale:hover {
+	transform: scale(1.2);
+}
+.scale2 {
+	transition: 1s;
+}
+
+.scale2:hover {
+	transform: scale(1.5);
+}
+
+
+.menu {
+	list-style: none;
+	margin: 0;
+	padding-left: 0;
+}
+
+
+.menu-item {
+	float: left;
+	margin-right: 15px;
+}
+
+.list {
+  padding: 10px;
+  background-color: #666;
+  text-align: center;
+}
+
+ul {
+  display: inline-block; 
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  vertical-align: center;
+  text-align: left;
+}
+
+.item {
+	text-decoration: none;
+	outline: none;
+	color: #F7F7FF;
+}
+
+.copy {
+	text-align: center;
+	margin-top: -20px;
+}
+
+.copytext {
+	font-size: 20px;
+}
