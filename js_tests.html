@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Scripts</title>
+   <link href="js_tests.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+
+   <div class="miniblock">
+   <form action="post">
+      <h2>Це число?</h2>
+      <input type="text" name="digit_check" id="digit_check">
+      <input type="submit" value="Check" id="digit_check_submit">
+      <br>
+      <span id="digit_check_output"></span>
+   </form>
+   </div>
+
+   <br><br><br> 
+   <div class="miniblock">
+   <form action="post">
+      <h2>Видаляю зайві пробіли:</h2>
+      <input type="text" name="rm_whitespaces" id="rm_whitespaces">
+      <input type="submit" value="Remove" id="rm_whitespaces_submit">
+      <br>
+      <span id="rm_whitespaces_output"></span>
+   </form>
+   </div>
+   <br><br><br> 
+   <div class="miniblock">
+   <form action="post">
+      <h2>Перевірка пошти:</h2>
+      <input type="text" name="email_check" id="email_check">
+      <input type="submit" value="Check" id="email_check_submit">
+      <br>
+      <span id="email_check_output"></span>
+   </form>
+   </div>
+   <br><br><br> 
+   <div class="miniblock">
+   <h2>Сьогодні в нас:</h2>
+   <button id="show_datetime">Показати дату</button>
+   </div>
+   <br><br><br> 
+   <div class="miniblock">
+   <h2>День Народження:</h2>
+   <button id="show_day_of_birth">День</button>
+   <button id="show_day_of_birth10">10 років тому</button>
+   <button id="show_day_of_birth12">12 років тому</button>
+   <button id="show_day_of_birth25">25 років тому</button>
+   <button id="show_day_of_birth38">38 років тому</button>
+   <button id="show_day_of_birth_in3">Через 3 роки</button>
+
+   <button id="show_day_of_birth_sum_b">Сума в двійковій</button>
+   <button id="show_day_of_birth_sum_d">Сума в десятковій</button>
+   <button id="show_day_of_birth_sum_h">Сума в шістнадцятковій</button>
+   </div>
+   <br><br><br> 
+   <div class="miniblock">
+   <form action="post">
+      <h2>Різниця часу:</h2>
+      <input type="text" name="start_h" id="start_h" placeholder="Start hh">
+      <input type="text" name="start_m" id="start_m" placeholder="Start mm">
+      <br>
+      <input type="text" name="end_h" id="end_h" placeholder="End hh">
+      <input type="text" name="end_m" id="end_m" placeholder="End mm">
+      <br>
+      <input type="submit" value="Calculate" id="diff_time">
+      <br>
+      <span id="diff_time_output"></span>
+   </form>
+   </div>
+   <br><br><br> 
+   <div class="miniblock">
+   <form action="post">
+      <h2>Калькулятор гіпотенузи:</h2>
+      <input type="text" name="cat1" id="cat1" placeholder="Catet 1">
+      <br>
+      <input type="text" name="cat2" id="cat2" placeholder="Catet 2">
+      <br>
+      <input type="submit" value="Calculate" id="calc_hypotenuse">
+      <br>
+      <span id="calc_hypotenuse_output"></span>
+   </form>
+   </div>
+   <br><br><br> 
+
+</body>
+
+
+
+<script src="scripts_test.js"></script>
+
+</html>

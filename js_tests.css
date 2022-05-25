@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Condensed&display=swap');
+
+body {
+	background-color: #302B27;
+	color: #F5F3F5;
+	font-family: 'Ubuntu Condensed', sans-serif;
+
+}
+
+.miniblock {
+
+	background-color: #7286A0;
+	padding: 10px;
+	width: 550px;
+	border-radius: 25px;
+}
