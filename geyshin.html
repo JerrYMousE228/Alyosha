@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<title>Genshin</title>
+
+	
+	<link rel="stylesheet" href="ultimate.css">
+	
+	<!-- GoogleFonts -->
+
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Hind+Guntur&family=Poppins:wght@700&family=Ubuntu&display=swap"
+		rel="stylesheet">
+
+
+	<!-- Fontawesome icons -->
+
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+		integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+		integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+		crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
+</head>
+<!-- 
+<body oncontextmenu="showCustomMenu(true,event.clientX, event.clientY); return false;" onclick="showCustomMenu(false, event.clientX, event.clientY); return false;"> -->
+
+<body id="body">
+
+	<style>
+		html,
+		body {
+			width: 100%;
+			height: 100%;
+			font-family: "Open Sans", sans-serif;
+			padding: 0;
+			margin: 0;
+		}
+
+		#context-menu {
+			position: fixed;
+			z-index: 10000;
+			width: 150px;
+			background: #1b1a1a;
+			border-radius: 5px;
+			transform: scale(0);
+			transform-origin: top left;
+		}
+
+		#context-menu.visible {
+			transform: scale(1);
+			transition: transform 200ms ease-in-out;
+		}
+
+		#context-menu .item {
+			padding: 8px 10px;
+			font-size: 15px;
+			color: #eee;
+			cursor: pointer;
+			border-radius: inherit;
+		}
+
+		#context-menu .item:hover {
+			background: #343434;
+		}
+	</style>
+
+	<header class="header">
+		<div class="all-header">
+			<div class="logo scale">
+				<h1><a href="index.html" class="link">ALYOSHA</a></h1>
+			</div>
+			<div class="top-menu">
+			<ul class="menu-list">
+				<li class="list-item scale"><a href="aboutme.html" class="link">Про мене</a></li>
+				<li class="list-item scale"><a href="aboutgroup.html" class="link">Група</a></li>
+				<li class="list-item scale"><a href="abouthobby.html" class="link">Хоббі</a></li>
+				<li class="list-item scale"><a href="aboutinterest.html" class="link">Інтересненьке</a></li>
+			</ul>
+			</div>
+		</div>
+	</header>
+
+
+	<main>
+
+		<div id="main-wrapper">
+			<div id="main_block">
+<!-- 
+				<div id="title">
+					<h1>Waifu:</h1>
+				</div>
+ -->
+ 				<div class="space"></div>
+				<section id="hobby_wrapper">
+
+					<div class="hobby">
+						<h2>Mona</h2>
+
+						<div class="hobby_image scaling">
+							<img src="https://d3fd5j8wprxn3h.cloudfront.net/wp-content/uploads/2020/10/Genshin-Impact-Banner.jpg" alt=""
+								onmouseover="this.src= 'https://gamezo.co.uk/wp-content/uploads/2020/12/image-32.png'"
+								onmouseout="this.src='https://d3fd5j8wprxn3h.cloudfront.net/wp-content/uploads/2020/10/Genshin-Impact-Banner.jpg'" class="scaling">
+						</div>
+
+						<p>Astral Reflection</p>
+
+						<p>An astrologist of knowledgeable skill and high pride, Mona has settled in Mondstadt to avoid suffering the ire of her master after unwittingly reading the latter's diary.</p>
+
+						<a href="https://www.youtube.com/watch?v=9dMRIV8dijI">
+							<div class="btn">
+								<h3>More</h3>
+							</div>
+						</a>
+
+					</div>
+
+					<div class="hobby">
+						<h2>Raiden Shogun</h2>
+
+						<div class="hobby_image scaling">
+							<img src="https://ovrpwr.com/wp-content/uploads/2021/10/Baido-Genshin-Impact-1536x864.png" alt="" onmouseover="this.src= 'https://staticg.sportskeeda.com/editor/2022/02/990bf-16458309565045-1920.jpg'"
+								onmouseout="this.src='https://ovrpwr.com/wp-content/uploads/2021/10/Baido-Genshin-Impact-1536x864.png'" class="scaling">
+						</div>
+
+						<p>Plane of Euthymia</p>
+
+						<p>Raiden Ei, also known by her Archon name Beelzebul, is the God of Eternity and the current Electro Archon who presides over Inazuma. She is a member of The Seven. She wanders the world as the Raiden Shogun.</p>
+
+						<a href="https://www.youtube.com/watch?v=mvrW4aKwAXw">
+							<div class="btn">
+								<h3>More</h3>
+							</div>
+						</a>
+
+					</div>
+
+					<div class="hobby">
+						<h2>Xiao</h2>
+
+						<div class="hobby_image scaling">
+							<img src="https://img.wtftime.ru/store/2021/02/06/aFkdAjwO_amp_big_s.jpg" alt="" onmouseover="this.src= 'https://d3fd5j8wprxn3h.cloudfront.net/wp-content/uploads/2021/02/genshin-impact-xiao-1.jpg'"
+								onmouseout="this.src='https://img.wtftime.ru/store/2021/02/06/aFkdAjwO_amp_big_s.jpg'" class="scaling">
+						</div>
+
+						<p>Vigilant Yaksha</p>
+
+						<p>He is an adeptus, under the name Alatus, and the only known remaining member of the five foremost Yakshas dispatched by Morax to subdue the demonic spirits that plagued Liyue. He currently resides at Wangshu Inn and mostly restrains himself from large crowds and social interactions.</p>
+ 
+						<a href="https://www.youtube.com/watch?v=sjozpa9DsZU" target="_blank">
+							<div class="btn">
+								<h3>More</h3>
+							</div>
+						</a>
+
+					</div>
+
+				</section>
+
+			</div>
+
+
+		<div id="input-block">
+			<h2>Input check:</h2>
+			<input type="text" placeholder="Allowed only numbers" autofocus
+				onkeypress="return checkSymbol(event.keyCode);">
+		</div>
+
+
+
+	</main>
+
+	</div>
+
+	<footer>
+		<div id="items_footer">
+			<p> Alyosha - 2022 </p>
+		</div>
+	</footer>
+
+	<div id="context-menu">
+		<div class="item" onclick="doAction('close');">Close</div>
+		<div class="item" onclick="doAction('copy');">Copy</div>
+		<div class="item" onclick="doAction('fontIncrease');">Font increase</div>
+		<div class="item" onclick="doAction('fontDecrease');">Font decrease</div>
+		<div class="item" onclick="doAction('changeBg');">Change background</div>
+	</div>
+
+
+</body>
+
+
+<script src="../script.js"></script>
+
+</html>

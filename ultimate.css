@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Condensed&display=swap');
+
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background-color: #D7D6D6;
+  overflow-y: hidden;
+}
+
+h1 {
+  font: 22px "Poppins";
+  color: #EEFBFB;
+  margin: 0 0 15px;
+}
+
+h2 {
+  font: 20px "Ubuntu";
+  color: #EEFBFB;
+  margin: 0 0 12px;
+}
+
+h3 {
+  font: 18px "Ubuntu";
+  color: #EEFBFB;
+  margin: 0 0 10px;
+}
+
+p {
+  font: 16px "Hind Guntur";
+  color: #c3d9d9;
+  margin: 0 0 10px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: #5378e0;
+}
+
+
+img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+footer {
+  background-color: #05A8AA;
+  width: 100%;
+  height: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+footer p {
+  margin: 0;
+}
+
+
+main {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+#main-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-self: center;
+}
+
+#main_block {
+  width: 75%;
+}
+#main_block section {
+  width: 100%;
+  min-height: 100px;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
+  background-color: #F6FFF8;
+  overflow: hidden;
+}
+
+#hobby_wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+#hobby_wrapper .hobby {
+  width: 30%;
+  height: 525px;
+  background-color: #040403;
+  border-radius: 10px;
+  padding: 15px;
+}
+#hobby_wrapper .hobby h3 {
+  text-align: center;
+}
+
+#title {
+  width: 100%;
+  text-align: center;
+  padding: 25px 0 20px 0;
+}
+#title h1 {
+  margin: 0;
+}
+
+#hobby_wrapper {
+  width: 100%;
+}
+#hobby_wrapper .hobby {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+#hobby_wrapper .hobby .btn h3 {
+  margin: 0;
+}
+#hobby_wrapper .hobby_image {
+  width: 100%;
+  height: 50%;
+  max-height: 250px;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+#input-block {
+  margin: 30px 20px;
+}
+#input-block input {
+  min-width: 350px;
+  height: 38px;
+  padding: 5px;
+  outline: none;
+}
+#input-block input:focus, #input-block input:active {
+  outline: solid;
+  outline-color: #5378e0;
+}
+
+.scaling {
+  display: inline-block; /* Строчно-блочный элемент */
+  overflow: hidden; /* Скрываем всё за контуром */
+}
+
+.scaling img {
+  transition: 1s; /* Время эффекта */
+  display: block; /* Убираем небольшой отступ снизу */
+}
+
+.scaling img:hover {
+  transform: scale(1.2); /* Увеличиваем масштаб */
+}
+
+
+header {
+  display: flex;
+  justify-content: center;
+  vertical-align: middle;
+  width: 100%;
+  height: 35px;
+  background: #040403;
+}
+
+a {
+  text-decoration: none;
+}
+
+.logo, .top-menu {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 25px;
+}
+
+.top-menu li {
+  /*margin-top: 10px;*/
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 25px;
+}
+
+.top-menu a {
+  font-family: 'Ubuntu Condensed', sans-serif;
+  font-size: 20px;
+  color: whitesmoke;
+  text-decoration: none;
+  vertical-align: middle;
+}
+
+.top-menu a:hover {
+  color: #05A8AA;
+}
+
+.logo h1 {
+  font-family: 'Ubuntu Condensed', sans-serif;
+  font-size: 30px;
+  vertical-align: middle;
+  color: #F7F7FF;
+}
+
+.logo a {
+  color: #F7F7FF;
+  text-decoration: none;
+
+}
+
+.logo a:hover {
+  color: #05A8AA;
+}
+
+.scale {
+  transition: 1s;
+}
+
+.scale:hover {
+  transform: scale(1.2);
+}
+
+.space {
+  min-height: 50px;
+}
